@@ -1,0 +1,7 @@
+.positioned {
+  position: absolute;
+  background: skyblue;
+  top:20px;
+  left:30px;
+}
+
