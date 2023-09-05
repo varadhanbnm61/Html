@@ -1,0 +1,10 @@
+* { /* Universal Selector: */ 
+  box-sizing: border-box;
+}
+/* ஒரு elementஇற்கு அதன் width, heightஇல் padding, border சேர்க்க  box-sizing property உதவுகிறது.*/ 
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

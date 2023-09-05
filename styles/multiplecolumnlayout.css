@@ -1,0 +1,13 @@
+.newspaper {
+  column-count: 3;
+column-gap:40px;
+column-width: 200px;
+	column-rule-style:blink;
+/*column-rule-style: dotted;*/
+column-rule-color: red;
+	
+}
+
+h1 {
+  column-span: all;
+}
